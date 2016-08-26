@@ -1,4 +1,8 @@
 Nodejs微信公众平台服务器接入指南
+
+https://github.com/mathjoy/weixin_server.git
+
+
 ---
 
 
