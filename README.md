@@ -136,7 +136,8 @@ router.use('/', wechat(config, function (req, res, next) {
 
 module.exports = router;
 ```
-这是wechat模块给的示例代码，我们暂时先用着，下面我们部署服务器,首先将该服务器上传到github或者任何能够从远程部署代码的代码托管服务商上。以github为例新增.gitignore防止将node_modules和.DS_Store上传到服务器:
+这是wechat模块给的示例代码，我们暂时先用着，下面我们部署服务器,首先将该服务器上传到github或者任何能够从远程部署代码的代码托管服务商上。
+以github为例新增.gitignore防止将node_modules和.DS_Store上传到服务器:
 ```
 node_modules
 example
