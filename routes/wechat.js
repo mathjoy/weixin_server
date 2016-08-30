@@ -21,7 +21,7 @@ router.use('/', wechat(config, function (req, res, next) {
             content: 'text object',
             type: 'text'
         });
-    } else if (message.FromUserName === 'hehe') {
+    } else if (message.FromUserName === 'bochuxt') {
         // 回复一段音乐
         res.reply({
             type: "music",
