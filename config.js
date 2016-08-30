@@ -5,6 +5,7 @@
 //wx766cfa35eaf8f41e
 //appsecret
 //235ee17af796754c65c61dda1504cea1
+//http://123.206.228.93/wechat
 
 //wx20b998c53ec523bc
 var config = {
