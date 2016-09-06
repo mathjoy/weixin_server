@@ -5,6 +5,7 @@ var wechat = require('wechat');
 var config = require('../config.js');
  console.log(config);
 
+
 router.use('/', wechat(config, function (req, res, next) {
 
 

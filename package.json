@@ -12,6 +12,8 @@
     "ejs": "~2.3.3",
     "express": "~4.13.1",
     "morgan": "~1.6.1",
+    "node-weixin-menu": "^0.6.0",
+    "node-weixin-config":"",
     "nodemon": "^1.8.1",
     "serve-favicon": "~2.3.0",
     "wechat": "^2.0.3"
