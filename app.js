@@ -58,11 +58,7 @@ var menu = {
 
 
 
-nodeWeixinMenu.create(app, menu, function (error, data) {
-  //error === true
-  //data.errcode === 0
-  //data.errmsg === 'ok'
-});
+
 
 
 
@@ -79,7 +75,12 @@ app.use('/users', users);
 app.use('/wechat',wechat);
 
 
-
+nodeWeixinMenu.create(app, menu, function (error, data) {
+  console.log("  ====menu was created...");
+  //error === true
+  //data.errcode === 0
+  //data.errmsg === 'ok'
+});
 
 
 
