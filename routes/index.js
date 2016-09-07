@@ -4,8 +4,8 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
-  //res.clear();
-  res.render('index', { title: 'Express, hello lule' });
+  console.log(" index page called..");
+  res.render('index', { title: 'Express, hello lule 2016' });
 });
 
 module.exports = router;

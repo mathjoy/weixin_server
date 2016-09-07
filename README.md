@@ -166,3 +166,18 @@ EncodingAESKey: <your EncodingAESKey>
 消息加解密方式 : 安全模式
 ```
 点击提交,完成接入。
+
+
+
+配合ngrok, localtunnel
+等软件将会更加方便
+
+lt --port 8080
+http://ozvigiqqjk.localtunnel.me
+
+lt -l 127.0.0.1 --port 8080
+your url is: http://xefahxslic.localtunnel.me
+
+
+UI html:
+http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html#.E6.AD.A5.E9.AA.A4.E4.B8.80.EF.BC.9A.E7.BB.91.E5.AE.9A.E5.9F.9F.E5.90.8D

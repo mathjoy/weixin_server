@@ -23,8 +23,8 @@ app.set('view engine', 'ejs');
 
 
 
-var nodeWeixinMenu = require('node-weixin-menu');
-
+//var nodeWeixinMenu = require('node-weixin-menu');
+//
 
 var menu = {
   "button": [
@@ -75,12 +75,12 @@ app.use('/users', users);
 app.use('/wechat',wechat);
 
 
-nodeWeixinMenu.create(app, menu, function (error, data) {
-  console.log("  ====menu was created...");
-  //error === true
-  //data.errcode === 0
-  //data.errmsg === 'ok'
-});
+//nodeWeixinMenu.create(app, menu, function (error, data) {
+//  console.log("  ====menu was created...");
+//  //error === true
+//  //data.errcode === 0
+//  //data.errmsg === 'ok'
+//});
 
 
 

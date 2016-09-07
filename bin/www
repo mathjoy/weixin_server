@@ -7,13 +7,54 @@
 var app = require('../app');
 var debug = require('debug')('weixin_server:server');
 var http = require('http');
+var nodeWeixinMenu = require('node-weixin-menu');
+var auth = require("node-weixin-auth");
+var config = require("node-weixin-config");
 
 /**
  * Get port from environment and store in Express.
  */
-
+//config.app.init(app);
 var port = normalizePort(process.env.PORT || '80');
 app.set('port', port);
+
+
+
+var menu = {
+  "button": [
+    {
+      "type": "view",
+      "name": "我要下单",
+      "url": "http://www.soso.com/"
+    },
+    {
+      "name": "菜单",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "搜索",
+          "url": "http://www.soso.com/"
+        },
+        {
+          "type": "view",
+          "name": "视频",
+          "url": "http://v.qq.com/"
+        },
+        {
+          "type": "click",
+          "name": "赞一下我们",
+          "key": "V1001_GOOD"
+        }
+      ]
+    }
+  ]
+};
+
+//nodeWeixinMenu.create(app, menu, function (error, data) {
+//  //error === true
+//  //data.errcode === 0
+//  //data.errmsg === 'ok'
+//});
 
 /**
  * Create HTTP server.
